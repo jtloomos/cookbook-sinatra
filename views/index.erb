@@ -1,0 +1,10 @@
+<body align="left">
+<h1> Recipe List </h1>
+<% @cookbook.each do |thing| %>
+   <ul>
+    <%= thing.name %>
+  </ul>
+<% end %>
+
+<a href="/new">Create New</a>
+</body>
